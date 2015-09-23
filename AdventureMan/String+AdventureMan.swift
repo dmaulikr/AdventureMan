@@ -21,6 +21,12 @@ func | (lhs: String, rhs: String) -> String {
     return lhs + "\n" + rhs
 }
 
+infix operator || { associativity left }
+
+func || (lhs: String, rhs: String) -> String {
+    return lhs + "\n\n" + rhs
+}
+
 extension String {
 
     /// Strips all extra whitespace from `self` and returns the result.
