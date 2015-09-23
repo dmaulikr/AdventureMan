@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
-
+// MARK: - Main Loop
+while let input = readLine() {
+    if input.lowercaseString == "exit" { exit(EXIT_SUCCESS) }
+    
+}
