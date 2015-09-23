@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52B0E0731BB25AC5005F5CD4 /* String+AdventureMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0E0721BB25AC5005F5CD4 /* String+AdventureMan.swift */; settings = {ASSET_TAGS = (); }; };
 		52C2943F1BB258ED00C98016 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2943E1BB258ED00C98016 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		52B0E0721BB25AC5005F5CD4 /* String+AdventureMan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+AdventureMan.swift"; sourceTree = "<group>"; };
 		52C2943B1BB258ED00C98016 /* AdventureMan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventureMan; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C2943E1BB258ED00C98016 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				52C2943E1BB258ED00C98016 /* main.swift */,
+				52B0E0721BB25AC5005F5CD4 /* String+AdventureMan.swift */,
 			);
 			path = AdventureMan;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B0E0731BB25AC5005F5CD4 /* String+AdventureMan.swift in Sources */,
 				52C2943F1BB258ED00C98016 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +240,7 @@
 				52C294441BB258ED00C98016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
